@@ -1,45 +1,59 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
-    background-image: url(nordwood-themes-Ex5TQsRANZk-unsplash\(1\).jpg);
-    background-repeat: no-repeat;
-    font-family: "Manufacturing Consent", system-ui;
-    min-height: 100vh;
-    margin: 100px;
+  background-image: url(nordwood-themes-Ex5TQsRANZk-unsplash\(1\).jpg);
+  background-repeat: no-repeat;
+  font-family: "Manufacturing Consent", system-ui;
+  min-height: 100vh;
+  margin: 100px;
 }
 ul {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: space-between;
-    color: rgb(245, 245, 245);
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(245, 245, 245);
 }
 li {
-    list-style: none;
-    padding: 1rem;
-    
+  list-style: none;
+  padding: 1rem;
 }
 a {
-    text-decoration: none;
-    color: rgb(245, 245, 245);
+  text-decoration: none;
+  color: rgb(245, 245, 245);
 }
 .navigateur {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-flow: row nowrap;
-    color: rgb(245, 245, 245);
-    font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-flow: row nowrap;
+  color: rgb(245, 245, 245);
+  font-size: 2rem;
 }
 .Café {
-    background: url(matt-hoffman-72qDM1TA5p8-unsplash\(1\).jpg) center/cover;
-    background-repeat: no-repeat;
-    height: 700px;
-
+  background: url(matt-hoffman-72qDM1TA5p8-unsplash\(1\).jpg) center/cover;
+  background-repeat: no-repeat;
+  height: 700px;
 }
 .commander {
-    background-color: rgb(228, 177, 135);
+  background-color: rgb(228, 177, 135);
+}
+.navi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(245, 245, 245);
+  font-size: 2.5rem;
+  height: 156px;
+  margin: 184px;
+}
+.fleur {
+    border: rgb(0, 0, 0) 3px solid;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    padding: 10px;
 }
